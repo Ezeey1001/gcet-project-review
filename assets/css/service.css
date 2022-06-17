@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 8px 25px;
+}
+
+.navbar-nav-abt{
+    display: flex;
+    gap: 2em;
+}
+
+.nav-item{
+    list-style: none;
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: #03A9F4 ;
+    transition: all 0.5s ease;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0B2B;
+}
+
+/* Service 1 */
+
+#services{
+    background-image: url(../img/Ellipse\ 7.png);
+    height: 130vh;
+}
+
+.service-img{
+    margin-left: 62px;
+    margin-top: 130px;
+    height: 520px;
+    width: 422px;
+}
+
+.service-left-1{
+    margin-top: 150px;
+}
+
+.service-left-1 p{
+    margin-top: 26px;
+}
+
+.service-left-1 span{
+    font-weight: bold;
+}
+
+
+/* Service-2 */
+
+#service-2{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.serv-2-img{
+    margin-top: 180px;
+    margin-left: 200px;
+}
+
+.serv-2-text p{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+/* Service-3 */
+
+#service-3{
+    background: url(../img/Ellipse\ 7.png);
+    height: 120vh;
+}
+
+/* Service-5 */
+
+#service-5{
+    background-image: url(../img/Ellipse\ 7.png);
+    height: 133vh;
+}
+
+/* service-6 */
+
+.serv-6-text{
+    margin-left: 150px;
+}
+
+#footer{
+    background-color: #03A9F4;
+    color: #ffffff;
+}
+
+.icon-links img{
+    padding-right: 16px;
+}
+
+.icon-links{
+   line-height: 2em; 
+}
